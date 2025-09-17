@@ -1,0 +1,173 @@
+<html><head>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<meta charset="utf-8"/>
+</head>
+<body class="bg-[#111618]">
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root" style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(157,176,185)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: &quot;Space Grotesk&quot;, &quot;Noto Sans&quot;, sans-serif;">
+<div class="flex h-full w-full">
+<aside class="flex flex-col items-center gap-y-6 border-r border-solid border-[#283339] bg-[#111618] px-4 py-8">
+<a class="flex h-10 w-10 items-center justify-center rounded-lg bg-[#1193d4] text-white" href="#">
+<svg class="h-6 w-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<nav class="flex flex-col gap-y-4">
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> dashboard </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg bg-[#283339] text-white" href="#">
+<span class="material-symbols-outlined"> science </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> analytics </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> report </span>
+</a>
+</nav>
+<div class="mt-auto flex flex-col gap-y-4">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white">
+<span class="material-symbols-outlined"> notifications </span>
+</button>
+<button class="h-10 w-10 rounded-full bg-cover bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsh7rEjDjaUN60whv-vqoFPJS_F1HLJ1W6psPaBin1ZeMfd74mNy6oL9OlfpmynQzn7F1WMoAXnk2MjPjXtVSPTqxt0LXsRzxi6i4aOwh34mUQzhS6Bgpkz2FFilkEe3NKE52N6mwPouHtXfhsdseWeDjokvH26LFEbuIo_VzcWTg0FhViOFL_yffYCSqmJNapGql9dhyCYIsmLTgkroYOobljXWUkLxbpqCPjKtm0Qob3NhxfdqSypKu6xpQ89AmuWZ-wBYBa1uU");'></button>
+</div>
+</aside>
+<main class="flex-1 overflow-y-auto">
+<header class="flex items-center justify-between border-b border-solid border-[#283339] px-8 py-4">
+<h1 class="text-xl font-bold text-white">Scenario Analysis &amp; Simulation</h1>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md bg-[#1193d4] px-4 py-2 text-sm font-bold text-white">
+<span class="material-symbols-outlined"> add </span>
+<span class="truncate">Create New Scenario</span>
+</button>
+</header>
+<div class="flex">
+<div class="flex w-[350px] flex-col border-r border-solid border-[#283339]">
+<div class="border-b border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Simulation Parameters</h2>
+</div>
+<div class="flex flex-col gap-y-6 p-6">
+<label class="flex flex-col gap-y-2">
+<p class="text-sm font-medium text-white">Scenario Name</p>
+<input class="form-input w-full resize-none overflow-hidden rounded-md border border-[#3b4b54] bg-[#1c2327] p-3 text-base text-white placeholder:text-[#9db0b9] focus:border-[#1193d4] focus:outline-0 focus:ring-0" placeholder="e.g. Morning Rush Hour" type="text" value="Morning Rush Hour"/>
+</label>
+<label class="flex flex-col gap-y-2">
+<p class="text-sm font-medium text-white">Train Delays (minutes)</p>
+<input class="form-input w-full resize-none overflow-hidden rounded-md border border-[#3b4b54] bg-[#1c2327] p-3 text-base text-white placeholder:text-[#9db0b9] focus:border-[#1193d4] focus:outline-0 focus:ring-0" placeholder="e.g. 15" type="number" value="15"/>
+</label>
+<label class="flex flex-col gap-y-2">
+<p class="text-sm font-medium text-white">Track Closures</p>
+<select class="form-select w-full resize-none overflow-hidden rounded-md border border-[#3b4b54] bg-[#1c2327] p-3 text-base text-white focus:border-[#1193d4] focus:outline-0 focus:ring-0">
+<option>Select track</option>
+<option selected="">Track A-1</option>
+<option>Track B-2</option>
+<option>Track C-3</option>
+</select>
+</label>
+<label class="flex flex-col gap-y-2">
+<p class="text-sm font-medium text-white">Signal Failures</p>
+<select class="form-select w-full resize-none overflow-hidden rounded-md border border-[#3b4b54] bg-[#1c2327] p-3 text-base text-white focus:border-[#1193d4] focus:outline-0 focus:ring-0">
+<option>Select signal</option>
+<option>Signal X</option>
+<option selected="">Signal Y</option>
+<option>Signal Z</option>
+</select>
+</label>
+<button class="flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md bg-[#1193d4] py-3 text-sm font-bold text-white">
+<span class="material-symbols-outlined"> directions_railway </span>
+<span class="truncate">Run Simulation</span>
+</button>
+</div>
+<div class="border-t border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Saved Scenarios</h2>
+</div>
+<div class="flex flex-col gap-y-4 p-6">
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-[#1193d4] bg-[#1c2327] p-4">
+<p class="font-medium text-white">Morning Rush Hour</p>
+<div class="flex items-center gap-2">
+<span class="text-xs text-[#9db0b9]">Active</span>
+<div class="h-2 w-2 rounded-full bg-[#0bda57]"></div>
+</div>
+</div>
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-transparent bg-[#1c2327] p-4 hover:border-[#3b4b54]">
+<p class="font-medium text-white">Weekend Maintenance</p>
+</div>
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-transparent bg-[#1c2327] p-4 hover:border-[#3b4b54]">
+<p class="font-medium text-white">Evening Peak</p>
+</div>
+</div>
+</div>
+<div class="flex-1">
+<div class="border-b border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Simulation Results Comparison</h2>
+</div>
+<div class="p-8">
+<div class="flex items-center justify-between">
+<div class="flex border-b border-[#283339]">
+<a class="border-b-2 border-b-[#1193d4] px-4 py-3 text-sm font-bold text-white" href="#">Key Metrics</a>
+<a class="border-b-2 border-b-transparent px-4 py-3 text-sm font-medium text-[#9db0b9] hover:text-white" href="#">Gantt Chart View</a>
+</div>
+<div class="flex items-center gap-4">
+<p class="text-sm font-medium text-[#9db0b9]">Comparing:</p>
+<div class="flex items-center gap-2">
+<button class="flex items-center gap-2 rounded-full border border-[#3b4b54] bg-[#1c2327] px-3 py-1 text-sm text-white">
+<div class="h-2 w-2 rounded-full bg-[#1193d4]"></div>
+<span>Baseline</span>
+</button>
+<button class="flex items-center gap-2 rounded-full border border-[#3b4b54] bg-[#1c2327] px-3 py-1 text-sm text-white">
+<div class="h-2 w-2 rounded-full bg-[#0bda57]"></div>
+<span>Morning Rush</span>
+</button>
+<button class="flex items-center gap-2 rounded-full border border-[#3b4b54] bg-[#1c2327] px-3 py-1 text-sm text-white">
+<div class="h-2 w-2 rounded-full bg-[#fa5f38]"></div>
+<span>Evening Peak</span>
+</button>
+<button class="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-[#283339] text-[#9db0b9] hover:bg-[#3b4b54] hover:text-white">
+<span class="material-symbols-outlined text-xl"> add </span>
+</button>
+</div>
+</div>
+</div>
+<div class="mt-8 grid grid-cols-1 gap-8 xl:grid-cols-3">
+<div class="flex flex-col gap-6 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6">
+<h3 class="text-base font-bold text-white">Overall Throughput</h3>
+<div class="flex flex-col items-start gap-1">
+<p class="text-4xl font-bold text-white">1,250 trains</p>
+<p class="text-sm font-medium text-[#0bda57]">+15% vs Baseline</p>
+</div>
+<div class="mt-4 h-64">
+<img alt="Line chart showing throughput comparison between scenarios." class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgtXTDqn5go_Huyg5hTlVbKW_Pp5WROqOMG10ASZpPuOJyNtJvjiMG3PqZIpjIYpg_gtUHMdvqaqdoP8xdMTf9yA6fMZo2oTFgmx5scO2_sVnj_91HDshWIXE3T2fInsd5f1U_aqLj-cRmo3xo20bpm0CYMjG3vBK4WngrxUf6zz6EjX_9FnyzagGhSUck60pZxzpbyGP_bvs4vR-dxJsIuEY6NWg7mcogAChzvkmcvBr0uGuSt0Y3WVUNjsaJDBWZOvM5InlD0Gs"/>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6">
+<h3 class="text-base font-bold text-white">Average Travel Time</h3>
+<div class="flex flex-col items-start gap-1">
+<p class="text-4xl font-bold text-white">45 min</p>
+<p class="text-sm font-medium text-[#fa5f38]">-10% vs Baseline</p>
+</div>
+<div class="mt-4 h-64">
+<img alt="Line chart showing average travel time comparison between scenarios." class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVXw8Tjav8TZvkHlNOedjScxe01N1fCzq_nwsURCW4CWg8pOhXhhrukCRz-cA3tebInwUh7Fe-CGxSPc4O-Uo7Ozj0jocDOh7KIL7HO4QIusnNuAn3KGfHDf2899ALYmCGtRUw4ZuQaS0wzhyOAzJ8Y2xrwKfAW5zUFcEgfeSY3iFsnRUq_3x0jgjeRY93hnaT0JEkuKUJ0yKw_h84yTAmw427jkS4M2zB1jmJYl40vc6jIpjUqA4l3BbEo055K-cYUAJKOUL1I1M"/>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-lg border border-[#3b4b54] bg-[#1c2327] p-6">
+<h3 class="text-base font-bold text-white">Delay Frequency</h3>
+<div class="flex flex-col items-start gap-1">
+<p class="text-4xl font-bold text-white">8 delays</p>
+<p class="text-sm font-medium text-[#0bda57]">-20% vs Baseline</p>
+</div>
+<div class="mt-4 h-64">
+<img alt="Line chart showing delay frequency comparison between scenarios." class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK5Ybk3DYU8prodFFhqywmolGFvg68QDa2mOgItnHVGWYOptScvUiZFGG3FXDZC6hXcaBxZ0mpvgQhGdICHcdCxX3vNnhz4t1e8Nzakk83helEjeaq13QL39igAyE91aCq5h4Yg5AQp_dqt0KtpjMBQ728HDboyT9aPe8EjHgkecTULQe42O4TDkoZGlfW3eKUGmRD4hiWgfjMs2xKScesnAkXCLgRrtso2FDGYzMTEBdR4gtqRfDikpPga5WHk9VsWJUJ9n0g2vs"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>

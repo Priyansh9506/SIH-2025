@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #1193d4;
+    }
+  </style>
+</head>
+<body class="bg-gray-900">
+<div class="relative flex size-full min-h-screen flex-col bg-[#111618] dark group/design-root" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-800 px-10 py-3">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-[var(--primary-color)]">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">RailPilot</h2>
+</div>
+<nav class="flex flex-1 justify-center">
+<div class="flex items-center gap-2 rounded-md bg-gray-800 p-1">
+<a class="rounded-md px-3 py-1 text-sm font-medium leading-normal text-gray-400 transition-colors hover:text-white" href="#">Dashboard</a>
+<a class="rounded-md bg-gray-700 px-3 py-1 text-sm font-medium leading-normal text-white" href="#">Recommendations</a>
+<a class="rounded-md px-3 py-1 text-sm font-medium leading-normal text-gray-400 transition-colors hover:text-white" href="#">Analytics</a>
+<a class="rounded-md px-3 py-1 text-sm font-medium leading-normal text-gray-400 transition-colors hover:text-white" href="#">Settings</a>
+</div>
+</nav>
+<div class="flex items-center gap-4">
+<button class="relative rounded-full p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+<span class="material-symbols-outlined"> notifications </span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCP5JoaqZFc2uSFz4viSOvr1M-DgdsJJs-jNWYQGQxdzWh3WDvkuij0rtlEcXizphgBE06jFMpAA6_jZxnzdBTWz_DxbYlodh3XqYzuCkLLtKY9GXTFB_pTwugVdjcQCAkrhkh-JmI8LLekl-u4i0Z9bfLFFLrr88dDbxYMrBCbL3l96xIVoyQa70zOS7KI6icPpe3BA9ObWw48EezGZpIafaTEqJ6qETFA78Xq8m7FI1C55FxYsM8pyi-r7NwUt4296Z_J34ZLsQE");'></div>
+</div>
+</header>
+<div class="flex flex-1">
+<main class="flex-1 p-8">
+<div class="mb-8">
+<h1 class="text-3xl font-bold text-white">Optimization &amp; Recommendation Engine</h1>
+<p class="text-gray-400">Review recommendations and monitor AI model performance.</p>
+</div>
+<div class="grid grid-cols-3 gap-6">
+<div class="col-span-2 space-y-6">
+<div class="flex items-center justify-between">
+<h3 class="text-xl font-bold leading-tight tracking-[-0.015em] text-white">Current Recommendations</h3>
+<div class="flex items-center gap-2 rounded-md bg-gray-800 p-1 text-sm">
+<button class="rounded-md bg-gray-700 px-3 py-1 font-medium text-white">Current</button>
+<button class="rounded-md px-3 py-1 font-medium text-gray-400 transition-colors hover:text-white">Historical</button>
+</div>
+</div>
+<div class="rounded-md border border-gray-800 bg-[#161c1f]">
+<div class="flex items-start gap-6 p-6">
+<div class="h-48 w-1/3 flex-shrink-0 rounded-md bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLrCKwYTUetInC2z5mOrGKxDoAO5f_hfR49PwX6nSThVpTZDHdVhZ7_x95uf85p2U02Mxo6uZ4qnMtRI0oghlWiibgyWyd0CGSzzLV0nlmmZYfcKT5oPLePaLM_knjcHmHIPWTz1iKmqBXjn4JdJjtbFg2UaDsYWF57lNkstR6dUrcuPsY-PU9-l6oOfqvQGq0_JNAGQxT5s0YCv2kEDLC1H_TvKeC8gX5AGdYoOX1GB0sFvsRrLFQHjgSOhcy_ZEWpKgv9e_nbqY");'></div>
+<div class="flex-1">
+<p class="text-sm text-gray-400">Recommendation ID: 20240726-1234</p>
+<h4 class="mt-1 text-lg font-bold text-white">Prioritize Train 101 over Train 202 at Junction X</h4>
+<p class="mt-2 text-gray-400"> AI suggests prioritizing Train 101 due to its higher priority cargo and minimal impact on overall throughput. <span class="font-semibold text-green-400">Estimated throughput increase: 5%</span>. </p>
+</div>
+</div>
+<div class="flex items-center justify-end gap-4 border-t border-gray-800 bg-gray-800/30 px-6 py-4">
+<button class="rounded-md bg-gray-700 px-4 py-2 text-sm font-medium text-white hover:bg-gray-600">Override</button>
+<button class="rounded-md bg-gray-700 px-4 py-2 text-sm font-medium text-white hover:bg-gray-600">Modify</button>
+<button class="rounded-md bg-[var(--primary-color)] px-4 py-2 text-sm font-medium text-white hover:bg-opacity-80">Accept</button>
+</div>
+</div>
+<div class="rounded-md border border-gray-800 bg-[#161c1f]">
+<div class="flex items-start gap-6 p-6">
+<div class="h-48 w-1/3 flex-shrink-0 rounded-md bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDTLnTrI-av3ycellfIaP0lzhG2k7Ij9y7xLbAkGsvlFGZz2_KpKP98sFa4udi6TjnARcPvX_GqKBRI0uIie0vNfaYT32Eu7RQyTi4faysYJfD-YI_DpiMHGlYzB8qpZKd8IXk1yyVaIkxtdQGucgKqW8a_G016bCqUVWwoeb_DXpqr15EiNJPZ2QJSUsFB5dIGLh1Y-ubL6A-ZLRnn3dqrhJi9iWFDEFsSjNe2KtmGH0xIRIaXZXYOiVnkknDiGhRIZe7bC5Heq2A");'></div>
+<div class="flex-1">
+<p class="text-sm text-gray-400">Recommendation ID: 20240726-5678</p>
+<h4 class="mt-1 text-lg font-bold text-white">Route Train 303 via Alternate Route Y</h4>
+<p class="mt-2 text-gray-400"> AI recommends routing Train 303 via Alternate Route Y to avoid congestion on the main line. <span class="font-semibold text-green-400">Estimated throughput increase: 3%</span>. </p>
+</div>
+</div>
+<div class="flex items-center justify-end gap-4 border-t border-gray-800 bg-gray-800/30 px-6 py-4">
+<button class="rounded-md bg-gray-700 px-4 py-2 text-sm font-medium text-white hover:bg-gray-600">Override</button>
+<button class="rounded-md bg-gray-700 px-4 py-2 text-sm font-medium text-white hover:bg-gray-600">Modify</button>
+<button class="rounded-md bg-[var(--primary-color)] px-4 py-2 text-sm font-medium text-white hover:bg-opacity-80">Accept</button>
+</div>
+</div>
+<div class="mt-8">
+<h3 class="text-xl font-bold leading-tight tracking-[-0.015em] text-white">Historical Log</h3>
+<div class="mt-4 rounded-md border border-gray-800 bg-[#161c1f]">
+<div class="overflow-x-auto">
+<table class="min-w-full divide-y divide-gray-800">
+<thead class="bg-gray-800/30">
+<tr>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400">Time</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400">AI Recommendation</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400">Controller Action</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400">Reason for Override</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400">Outcome</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-800">
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-07-25 10:15 UTC</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Prioritize Train 456</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center gap-1.5 rounded-full bg-red-500/20 px-2.5 py-0.5 text-xs font-medium text-red-400">
+<span class="material-symbols-outlined text-sm"> gpp_maybe </span>
+                              Override
+                            </span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Unforeseen track maintenance</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-green-400">+2% Throughput</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-07-25 08:30 UTC</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Route Train 789 via Alt. B</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center gap-1.5 rounded-full bg-green-500/20 px-2.5 py-0.5 text-xs font-medium text-green-400">
+<span class="material-symbols-outlined text-sm"> check_circle </span>
+                              Accepted
+                            </span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">N/A</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-green-400">+4% Throughput</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-07-24 16:45 UTC</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Hold Train 123 at Station Z</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center gap-1.5 rounded-full bg-green-500/20 px-2.5 py-0.5 text-xs font-medium text-green-400">
+<span class="material-symbols-outlined text-sm"> check_circle </span>
+                              Accepted
+                            </span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-500">N/A</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-red-400">-1% Throughput</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-07-24 12:00 UTC</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Prioritize Train 888</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center gap-1.5 rounded-full bg-red-500/20 px-2.5 py-0.5 text-xs font-medium text-red-400">
+<span class="material-symbols-outlined text-sm"> gpp_maybe </span>
+                              Override
+                            </span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">VIP passenger train</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-green-400">+3% Throughput</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<aside class="col-span-1 flex flex-col space-y-6">
+<div class="rounded-lg border border-gray-800 bg-[#161c1f]">
+<div class="border-b border-gray-800 p-4">
+<h3 class="text-lg font-bold text-white">AI Model Performance</h3>
+<p class="text-sm text-gray-400">Key metrics on model effectiveness.</p>
+</div>
+<div class="space-y-4 p-4">
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-gray-300">Recommendation Accuracy</p>
+<p class="text-lg font-bold text-green-400">97.2%</p>
+</div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-gray-300">Prediction Error (MAE)</p>
+<p class="text-lg font-bold text-yellow-400">1.5 min</p>
+</div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-gray-300">Avg. Processing Time</p>
+<p class="text-lg font-bold text-blue-400">250ms</p>
+</div>
+</div>
+<div class="border-t border-gray-800 p-4">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700">
+<span class="material-symbols-outlined text-blue-400"> model_training </span>
+</div>
+<div>
+<p class="text-sm font-medium text-gray-300">Next Retraining Scheduled</p>
+<p class="font-bold text-white">Aug 15, 2024</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 p-4">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700">
+<span class="material-symbols-outlined text-yellow-400"> data_thresholding </span>
+</div>
+<div>
+<p class="text-sm font-medium text-gray-300">Data Drift Status</p>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 rounded-full bg-green-500/20 px-2.5 py-0.5 text-xs font-medium text-green-400">
+<span class="material-symbols-outlined text-sm"> check_circle </span>
+                          Nominal
+                        </span>
+<p class="text-xs text-gray-400">Last check: 2h ago</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col rounded-lg border border-gray-800 bg-[#161c1f]">
+<div class="border-b border-gray-800 p-4">
+<h3 class="text-lg font-bold text-white">Collaboration Hub</h3>
+<p class="text-sm text-gray-400">Discuss recommendations with your team.</p>
+</div>
+<div class="flex-1 space-y-4 overflow-y-auto p-4">
+<div class="flex items-start gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-8" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCP5JoaqZFc2uSFz4viSOvr1M-DgdsJJs-jNWYQGQxdzWh3WDvkuij0rtlEcXizphgBE06jFMpAA6_jZxnzdBTWz_DxbYlodh3XqYzuCkLLtKY9GXTFB_pTwugVdjcQCAkrhkh-JmI8LLekl-u4i0Z9bfLFFLrr88dDbxYMrBCbL3l96xIVoyQa70zOS7KI6icPpe3BA9ObWw48EezGZpIafaTEqJ6qETFA78Xq8m7FI1C55FxYsM8pyi-r7NwUt4296Z_J34ZLsQE");'></div>
+<div>
+<div class="flex items-baseline gap-2">
+<p class="font-medium text-white">John Doe</p>
+<p class="text-xs text-gray-500">2:35 PM</p>
+</div>
+<div class="mt-1 rounded-md bg-gray-700 px-3 py-2 text-white"> What's the cargo on Train 101? The priority seems high. </div>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-8" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPo20a47iEdX8Rp7r3lpyrtHPoHvXAsFooaXoBmTN3dX2c7oB2ogy2uvmuIuhf0lFf9D5Q1noELCpEYz-4RRUtt_vxN8c5sV_0W_QhK640JitnxBxek2h78mW7Vt87uOVJDtiREjg3tEohnCmABF5_-sGN_ucXie-ZOz_EwzOS_ybIZ2aYdlf9D3FBi2Q5W2Y0uo-wMDmKSVfnAqKIkh7CJnX4PmUTIJngqAhzGTOYvbRDAyC0eFeMkjtgpVE7T12gqvKX92DJC4g");'></div>
+<div>
+<div class="flex items-baseline gap-2">
+<p class="font-medium text-white">Jane Smith</p>
+<p class="text-xs text-gray-500">2:36 PM</p>
+</div>
+<div class="mt-1 rounded-md bg-gray-700 px-3 py-2 text-white"> It's carrying perishable goods. The AI is correct to prioritize it. I'll accept the recommendation. </div>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 p-4">
+<div class="relative">
+<input class="w-full rounded-md border-gray-700 bg-gray-800 py-2 pl-4 pr-10 text-white placeholder:text-gray-400 focus:border-[var(--primary-color)] focus:ring-[var(--primary-color)]" placeholder="Type a message..." type="text"/>
+<button class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-white">
+<span class="material-symbols-outlined"> send </span>
+</button>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</main>
+</div>
+</div>
+</div>
+
+</body></html>

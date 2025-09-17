@@ -1,0 +1,247 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-50: #f0fdf4;
+        --primary-100: #dcfce7;
+        --primary-200: #bbf7d0;
+        --primary-300: #86efac;
+        --primary-400: #4ade80;
+        --primary-500: #22c55e;
+        --primary-600: #16a34a;
+        --primary-700: #15803d;
+        --primary-800: #166534;
+        --primary-900: #14532d;
+        --primary-950: #052e16;
+      }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100" style='font-family: "Inter", "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-800 px-6 py-4 md:px-10">
+<div class="flex items-center gap-4 text-white">
+<svg class="h-8 w-8 text-primary-500" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M2 7L12 12L22 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M12 22V12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<h2 class="text-white text-xl font-bold tracking-tight">RailFlow</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-gray-300 hover:text-white text-sm font-medium transition-colors" href="#">Dashboard</a>
+<a class="text-gray-300 hover:text-white text-sm font-medium transition-colors" href="#">Network View</a>
+<a class="text-gray-300 hover:text-white text-sm font-medium transition-colors" href="#">Analytics</a>
+<a class="text-gray-300 hover:text-white text-sm font-medium transition-colors" href="#">Settings</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="md:hidden">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB5r8-67EXPHVy8Zx3Ma-1hiUmHWP37MuwvVoovWhjoRqctQ7Jt4vsn4bHWYqivwnWLAyy8kf4EdBFmatXwOMBs6oCOonA35IiOFLSAAxoeysI9PYb7uRCbZU9y3ptDWfAHidW5A1fKO0NOjJSLg__Nas9kr8U0dCSSN3hZke7TD-uVlMb-R0NeNN7WOoBRA2sQXygccFe6wCsI19bTXPExpf5C0R43IUn6QWkqaEO5JcbGKBUcYGetAL68SltwNfKvRmQs_fcLESc");'></div>
+</div>
+</header>
+<main class="flex-1 px-4 sm:px-6 md:px-10 py-8">
+<div class="mx-auto max-w-7xl">
+<div class="mb-8">
+<h1 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Dashboard Overview</h1>
+<p class="mt-2 text-gray-400">Real-time summaries of network status and key performance indicators.</p>
+</div>
+<div class="grid gap-8">
+<section>
+<h2 class="text-xl font-semibold text-white mb-4">Network Status</h2>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+<div class="flex flex-col gap-2 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<p class="text-base font-medium text-gray-300">Total Trains</p>
+<p class="text-3xl font-bold text-white">125</p>
+</div>
+<div class="flex flex-col gap-2 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<p class="text-base font-medium text-gray-300">Active Sections</p>
+<p class="text-3xl font-bold text-white">85</p>
+</div>
+<div class="flex flex-col gap-2 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<p class="text-base font-medium text-gray-300">Idle Sections</p>
+<p class="text-3xl font-bold text-white">40</p>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xl font-semibold text-white mb-4">Key Performance Indicators (KPIs)</h2>
+<div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+<div class="flex flex-col gap-4 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<div class="flex items-start justify-between">
+<div>
+<p class="text-base font-medium text-gray-300">Punctuality</p>
+<p class="text-3xl font-bold text-white">95%</p>
+</div>
+<div class="flex items-center gap-1 text-sm font-medium text-green-500">
+<span class="material-symbols-outlined">arrow_upward</span>
+<span>2%</span>
+</div>
+</div>
+<div class="h-48">
+<svg fill="none" height="100%" preserveAspectRatio="none" viewBox="0 0 472 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V150H0V109Z" fill="url(#punctuality-gradient)"></path>
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25" stroke="var(--primary-500)" stroke-linecap="round" stroke-width="3"></path>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="punctuality-gradient" x1="236" x2="236" y1="1" y2="149">
+<stop stop-color="var(--primary-700)" stop-opacity="0.5"></stop>
+<stop offset="1" stop-color="var(--primary-950)" stop-opacity="0"></stop>
+</linearGradient>
+</defs>
+</svg>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<div class="flex items-start justify-between">
+<div>
+<p class="text-base font-medium text-gray-300">Average Delay</p>
+<p class="text-3xl font-bold text-white">15 min</p>
+</div>
+<div class="flex items-center gap-1 text-sm font-medium text-red-500">
+<span class="material-symbols-outlined">arrow_downward</span>
+<span>5%</span>
+</div>
+</div>
+<div class="grid h-48 grid-flow-col items-end gap-4 px-2">
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 80%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 100%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 80%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 90%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 20%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 60%;"></div>
+<div class="w-full rounded-t-sm bg-primary-700" style="height: 20%;"></div>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-800 bg-gray-900 p-6">
+<div class="flex items-start justify-between">
+<div>
+<p class="text-base font-medium text-gray-300">Throughput</p>
+<p class="text-3xl font-bold text-white">12 trains/hr</p>
+</div>
+<div class="flex items-center gap-1 text-sm font-medium text-green-500">
+<span class="material-symbols-outlined">arrow_upward</span>
+<span>10%</span>
+</div>
+</div>
+<div class="grid h-48 grid-cols-[auto_1fr] items-center gap-x-4 gap-y-2">
+<p class="text-xs font-medium text-gray-400">Section A</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 80%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section B</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 20%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section C</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 70%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section D</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 80%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section E</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 100%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section F</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 20%;"></div></div>
+<p class="text-xs font-medium text-gray-400">Section G</p>
+<div class="h-2 w-full rounded-full bg-gray-700"><div class="h-2 rounded-full bg-primary-500" style="width: 100%;"></div></div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xl font-semibold text-white mb-4">Critical Alerts</h2>
+<div class="overflow-hidden rounded-lg border border-gray-800 bg-gray-900">
+<div class="overflow-x-auto">
+<table class="min-w-full divide-y divide-gray-800">
+<thead class="bg-gray-950/50">
+<tr>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400" scope="col">Alert ID</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400" scope="col">Severity</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400" scope="col">Section</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400" scope="col">Description</th>
+<th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-400" scope="col">Timestamp</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-800">
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-white">A123</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center rounded-md bg-red-900/50 px-2 py-1 text-xs font-medium text-red-400 ring-1 ring-inset ring-red-500/20">High</span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Section B</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Signal malfunction detected</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-01-15 14:30</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-white">B456</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center rounded-md bg-yellow-900/50 px-2 py-1 text-xs font-medium text-yellow-400 ring-1 ring-inset ring-yellow-500/20">Medium</span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Section D</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Train delay due to maintenance</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-01-15 15:15</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-6 py-4 text-sm font-medium text-white">C789</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm">
+<span class="inline-flex items-center rounded-md bg-blue-900/50 px-2 py-1 text-xs font-medium text-blue-400 ring-1 ring-inset ring-blue-500/20">Low</span>
+</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Section F</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">Track obstruction reported</td>
+<td class="whitespace-nowrap px-6 py-4 text-sm text-gray-300">2024-01-15 16:00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xl font-semibold text-white mb-4">Notifications &amp; Alerts History</h2>
+<div class="rounded-lg border border-gray-800 bg-gray-900">
+<div class="p-6">
+<ul class="space-y-6">
+<li class="relative pl-8">
+<div class="absolute left-0 top-1.5 h-full w-px bg-gray-700"></div>
+<div class="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full bg-red-500"></div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-red-400">High Severity Alert</p>
+<p class="text-xs text-gray-500">2024-01-15 14:30</p>
+</div>
+<p class="mt-1 text-sm text-gray-300">Signal malfunction detected at Section B. Immediate action required.</p>
+</li>
+<li class="relative pl-8">
+<div class="absolute left-0 top-1.5 h-full w-px bg-gray-700"></div>
+<div class="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full bg-yellow-500"></div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-yellow-400">Medium Severity Warning</p>
+<p class="text-xs text-gray-500">2024-01-15 15:15</p>
+</div>
+<p class="mt-1 text-sm text-gray-300">Train #582 delayed by 15 minutes at Section D due to unscheduled maintenance.</p>
+</li>
+<li class="relative pl-8">
+<div class="absolute left-0 top-1.5 h-full w-px bg-gray-700"></div>
+<div class="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full bg-blue-500"></div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-blue-400">Low Severity Notification</p>
+<p class="text-xs text-gray-500">2024-01-15 16:00</p>
+</div>
+<p class="mt-1 text-sm text-gray-300">Minor track obstruction reported near Section F. No immediate impact on traffic.</p>
+</li>
+<li class="relative pl-8">
+<div class="absolute left-[-4px] top-1.5 h-3 w-3 rounded-full bg-green-500"></div>
+<div class="flex items-center justify-between">
+<p class="text-sm font-medium text-green-400">System Notification</p>
+<p class="text-xs text-gray-500">2024-01-15 18:00</p>
+</div>
+<p class="mt-1 text-sm text-gray-300">AI re-routing algorithm successfully optimized traffic flow, reducing potential delays by 12%.</p>
+</li>
+</ul>
+</div>
+<div class="border-t border-gray-800 px-6 py-4 text-center">
+<a class="text-sm font-medium text-primary-400 hover:text-primary-300" href="#">View All History</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,168 @@
+<html><head>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<meta charset="utf-8"/>
+</head>
+<body class="bg-[#111618]">
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root" style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(157,176,185)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: &quot;Space Grotesk&quot;, &quot;Noto Sans&quot;, sans-serif;">
+<div class="flex h-full w-full">
+<aside class="flex flex-col items-center gap-y-6 border-r border-solid border-[#283339] bg-[#111618] px-4 py-8">
+<a class="flex h-10 w-10 items-center justify-center rounded-lg bg-[#1193d4] text-white" href="#">
+<svg class="h-6 w-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</a>
+<nav class="flex flex-col gap-y-4">
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> dashboard </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg bg-[#283339] text-white" href="#">
+<span class="material-symbols-outlined"> science </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> analytics </span>
+</a>
+<a class="group flex h-10 w-10 items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white" href="#">
+<span class="material-symbols-outlined"> report </span>
+</a>
+</nav>
+<div class="mt-auto flex flex-col gap-y-4">
+<button class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg text-[#9db0b9] hover:bg-[#283339] hover:text-white">
+<span class="material-symbols-outlined"> notifications </span>
+</button>
+<button class="h-10 w-10 rounded-full bg-cover bg-center bg-no-repeat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsh7rEjDjaUN60whv-vqoFPJS_F1HLJ1W6psPaBin1ZeMfd74mNy6oL9OlfpmynQzn7F1WMoAXnk2MjPjXtVSPTqxt0LXsRzxi6i4aOwh34mUQzhS6Bgpkz2FFilkEe3NKE52N6mwPouHtXfhsdseWeDjokvH26LFEbuIo_VzcWTg0FhViOFL_yffYCSqmJNapGql9dhyCYIsmLTgkroYOobljXWUkLxbpqCPjKtm0Qob3NhxfdqSypKu6xpQ89AmuWZ-wBYBa1uU");'></button>
+</div>
+</aside>
+<main class="flex-1 overflow-y-auto">
+<header class="flex items-center justify-between border-b border-solid border-[#283339] px-8 py-4">
+<h1 class="text-xl font-bold text-white">Scenario Analysis &amp; Simulation</h1>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md bg-[#1193d4] px-4 py-2 text-sm font-bold text-white">
+<span class="material-symbols-outlined"> add </span>
+<span class="truncate">Create New Scenario</span>
+</button>
+</header>
+<div class="flex">
+<div class="flex w-[350px] flex-col border-r border-solid border-[#283339]">
+<div class="border-b border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Event Modules</h2>
+</div>
+<div class="flex flex-col gap-y-4 p-6">
+<div class="flex cursor-grab items-center gap-4 rounded-md border border-[#3b4b54] bg-[#1c2327] p-4 active:cursor-grabbing">
+<span class="material-symbols-outlined text-[#9db0b9]"> schedule </span>
+<div class="flex flex-col">
+<p class="font-medium text-white">Train Delay</p>
+<p class="text-xs text-[#9db0b9]">Simulate a train delay</p>
+</div>
+</div>
+<div class="flex cursor-grab items-center gap-4 rounded-md border border-[#3b4b54] bg-[#1c2327] p-4 active:cursor-grabbing">
+<span class="material-symbols-outlined text-[#9db0b9]"> block </span>
+<div class="flex flex-col">
+<p class="font-medium text-white">Track Closure</p>
+<p class="text-xs text-[#9db0b9]">Simulate a track closure</p>
+</div>
+</div>
+<div class="flex cursor-grab items-center gap-4 rounded-md border border-[#3b4b54] bg-[#1c2327] p-4 active:cursor-grabbing">
+<span class="material-symbols-outlined text-[#9db0b9]"> warning </span>
+<div class="flex flex-col">
+<p class="font-medium text-white">Signal Malfunction</p>
+<p class="text-xs text-[#9db0b9]">Simulate a signal malfunction</p>
+</div>
+</div>
+<div class="flex cursor-grab items-center gap-4 rounded-md border border-[#3b4b54] bg-[#1c2327] p-4 active:cursor-grabbing">
+<span class="material-symbols-outlined text-[#9db0b9]"> add_road </span>
+<div class="flex flex-col">
+<p class="font-medium text-white">Add Train</p>
+<p class="text-xs text-[#9db0b9]">Add a new train to the schedule</p>
+</div>
+</div>
+</div>
+<div class="border-t border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Saved Scenarios</h2>
+</div>
+<div class="flex flex-col gap-y-4 p-6">
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-[#1193d4] bg-[#1c2327] p-4">
+<p class="font-medium text-white">Morning Rush Hour</p>
+<div class="flex items-center gap-2">
+<span class="text-xs text-[#9db0b9]">Active</span>
+<div class="h-2 w-2 rounded-full bg-[#0bda57]"></div>
+</div>
+</div>
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-transparent bg-[#1c2327] p-4 hover:border-[#3b4b54]">
+<p class="font-medium text-white">Weekend Maintenance</p>
+</div>
+<div class="flex cursor-pointer items-center justify-between rounded-md border border-transparent bg-[#1c2327] p-4 hover:border-[#3b4b54]">
+<p class="font-medium text-white">Evening Peak</p>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col">
+<div class="border-b border-solid border-[#283339] p-6">
+<h2 class="text-lg font-bold text-white">Scenario Timeline: Morning Rush Hour</h2>
+</div>
+<div class="flex-1 p-8">
+<div class="relative h-full min-h-[400px] rounded-lg border-2 border-dashed border-[#3b4b54] bg-[#1c2327] p-6">
+<div class="absolute inset-0 flex items-center justify-center">
+<p class="text-center text-[#9db0b9]">Drag and drop event modules here to build your scenario</p>
+</div>
+<div class="relative z-10 space-y-4">
+<div class="flex items-start gap-4 rounded-lg bg-[#283339] p-4">
+<span class="material-symbols-outlined mt-1 text-[#1193d4]"> schedule </span>
+<div class="flex-1">
+<p class="font-medium text-white">Train Delay: T-123</p>
+<div class="mt-2 flex items-center gap-4">
+<label class="flex items-center gap-2 text-sm text-[#9db0b9]">
+<span>Delay (min):</span>
+<input class="form-input w-24 rounded-md border-[#3b4b54] bg-[#1c2327] p-1 text-white" type="number" value="15"/>
+</label>
+<label class="flex items-center gap-2 text-sm text-[#9db0b9]">
+<span>Start Time:</span>
+<input class="form-input w-32 rounded-md border-[#3b4b54] bg-[#1c2327] p-1 text-white" type="time" value="08:00"/>
+</label>
+</div>
+</div>
+<button class="text-[#9db0b9] hover:text-white">
+<span class="material-symbols-outlined"> delete </span>
+</button>
+</div>
+<div class="flex items-start gap-4 rounded-lg bg-[#283339] p-4">
+<span class="material-symbols-outlined mt-1 text-[#1193d4]"> block </span>
+<div class="flex-1">
+<p class="font-medium text-white">Track Closure: Track A-1</p>
+<div class="mt-2 flex items-center gap-4">
+<label class="flex items-center gap-2 text-sm text-[#9db0b9]">
+<span>Start Time:</span>
+<input class="form-input w-32 rounded-md border-[#3b4b54] bg-[#1c2327] p-1 text-white" type="time" value="09:00"/>
+</label>
+<label class="flex items-center gap-2 text-sm text-[#9db0b9]">
+<span>End Time:</span>
+<input class="form-input w-32 rounded-md border-[#3b4b54] bg-[#1c2327] p-1 text-white" type="time" value="10:00"/>
+</label>
+</div>
+</div>
+<button class="text-[#9db0b9] hover:text-white">
+<span class="material-symbols-outlined"> delete </span>
+</button>
+</div>
+</div>
+</div>
+<div class="mt-6 flex justify-end gap-4">
+<button class="flex cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md border border-[#3b4b54] bg-[#1c2327] px-4 py-2 text-sm font-bold text-white">
+<span class="material-symbols-outlined"> save </span>
+<span class="truncate">Save Scenario</span>
+</button>
+<button class="flex cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-md bg-[#1193d4] px-4 py-2 text-sm font-bold text-white">
+<span class="material-symbols-outlined"> directions_railway </span>
+<span class="truncate">Run Simulation</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
