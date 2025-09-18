@@ -174,17 +174,17 @@ Advanced scenario testing with:
 <td align="center">
 <img src="https://github.com/identicons/dev1.png" width="80px;" alt="Developer"/><br />
 <sub><b>🔧 Vraj Talati</b></sub><br />
-<sub>Full Stack Developer</sub>
+<sub>AI & ML Developer</sub>
 </td>
 <td align="center">
 <img src="https://github.com/identicons/dev2.png" width="80px;" alt="Developer"/><br />
 <sub><b>🎨 Jenil Paghdar</b></sub><br />
-<sub>Frontend Specialist</sub>
+<sub>AI & ML Developer</sub>
 </td>
 <td align="center">
 <img src="https://github.com/identicons/dev3.png" width="80px;" alt="Developer"/><br />
 <sub><b>⚡ Kaivalya Bhatt</b></sub><br />
-<sub>Backend Engineer</sub>
+<sub>Frontend Developer</sub>
 </td>
 <td align="center">
 <img src="https://github.com/identicons/dev4.png" width="80px;" alt="Developer"/><br />
