@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd RailMitra && npm run build",
+  "outputDirectory": "RailMitra/dist",
+  "installCommand": "cd RailMitra && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
