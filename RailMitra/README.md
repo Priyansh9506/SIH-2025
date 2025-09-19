@@ -153,13 +153,13 @@ Advanced scenario testing with:
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/identicons/leader.png" width="100px;" alt="Leader"/><br />
+<img src="https://github.com/Priyansh9506.png" width="100px;" alt="Leader"/><br />
 <sub><b>🎖️ Priyansh Patel</b></sub><br />
 <sub>Team Leader</sub><br />
 <sub>🚀 Project Vision & Strategy</sub>
 </td>
 <td align="center">
-<img src="https://github.com/identicons/co-leader.png" width="100px;" alt="Co-Leader"/><br />
+<img src="https://github.com/Preetansh24.png" width="100px;" alt="Co-Leader"/><br />
 <sub><b>⭐ Preetansh Devpura</b></sub><br />
 <sub>Co-Leader</sub><br />
 <sub>🏗️ Architecture & Coordination</sub>
@@ -172,22 +172,22 @@ Advanced scenario testing with:
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/identicons/dev1.png" width="80px;" alt="Developer"/><br />
+<img src="https://github.com/GalacticVraj.png" width="80px;" alt="Developer"/><br />
 <sub><b>🔧 Vraj Talati</b></sub><br />
-<sub>Full Stack Developer</sub>
+<sub>AI & ML Developer</sub>
 </td>
 <td align="center">
-<img src="https://github.com/identicons/dev2.png" width="80px;" alt="Developer"/><br />
-<sub><b>🎨 Jenil Paghdar</b></sub><br />
-<sub>Frontend Specialist</sub>
+<img src="https://github.com/WoLfy15.png" width="80px;" alt="Developer"/><br />
+<sub><b>🔧 Jenil Paghdar</b></sub><br />
+<sub>AI & ML Developer</sub>
 </td>
 <td align="center">
-<img src="https://github.com/identicons/dev3.png" width="80px;" alt="Developer"/><br />
+<img src="https://github.com/KaivalyaBhatt.png" width="80px;" alt="Developer"/><br />
 <sub><b>⚡ Kaivalya Bhatt</b></sub><br />
-<sub>Backend Engineer</sub>
+<sub>Frontend Developer</sub>
 </td>
 <td align="center">
-<img src="https://github.com/identicons/dev4.png" width="80px;" alt="Developer"/><br />
+<img src="https://github.com/asthajain1205.png" width="80px;" alt="Developer"/><br />
 <sub><b>🎯 Astha Jain</b></sub><br />
 <sub>UI/UX Designer</sub>
 </td>
